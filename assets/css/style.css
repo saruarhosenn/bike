@@ -1,0 +1,450 @@
+/* 
+==================================
+CDN Google Fonts
+==================================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html {
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: 'Poppins', sans-serif !important;
+	line-height: 1.6;
+	overflow-x: hidden;
+	letter-spacing: .1rem;
+	font-weight: 400;
+}
+
+.navbar {
+	justify-content: flex-end !important;
+}
+
+/* 
+==================================
+Bacic Setup
+==================================
+*/
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a,
+span,
+label {
+	display: inline-block;
+}
+
+ul li {
+	list-style: none
+}
+
+a,
+a:focus {
+	text-decoration: none;
+}
+
+button:focus,
+input:focus,
+textarea:focus,
+button,
+input,
+textarea {
+	outline: 0;
+	border: 0;
+	background-color: transparent;
+}
+
+button {
+	cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+hr {
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	opacity: 1;
+	background-color: transparent;
+}
+
+
+/* 
+==============================
+Font Size
+==============================
+*/
+.size-48 {
+	font-size: 4.8rem;
+}
+
+.size-28 {
+	font-size: 2.8rem;
+}
+
+.size-20 {
+	font-size: 2rem;
+}
+
+.fize-18 {
+	font-size: 1.8rem;
+}
+
+.size-16 {
+	font-size: 1.6rem;
+}
+
+.size-14 {
+	font-size: 1.4rem;
+}
+
+/* 
+=================================
+Font Color
+=================================
+*/
+.color-e0 {
+	color: #E0E0E0;
+}
+
+.color-ff {
+	color: #FFFFFF;
+}
+
+.color-00 {
+	color: #000000;
+}
+
+.color-e7 {
+	color: #E76F51;
+}
+
+.color-0a {
+	color: #0A0826;
+}
+
+.color-6c {
+	color: #6C6C6C;
+}
+
+.color-18 {
+	color: #18191F;
+}
+
+.color-0d {
+	color: #0D0925;
+}
+
+.color-38 {
+	color: #383838;
+}
+
+.color-7e {
+	color: #7E848C;
+}
+
+.color-d9 {
+	color: #D9DBE1;
+}
+
+.color-23 {
+	color: #23A6F0;
+}
+
+.color-25 {
+	color: #252B42;
+}
+
+/* 
+=================================
+Font Weight
+=================================
+*/
+.fw-300 {
+	font-weight: 300;
+}
+
+.fw-400 {
+	font-weight: 400;
+}
+
+.fw-500 {
+	font-weight: 500;
+}
+
+.fw-600 {
+	font-weight: 600;
+}
+
+
+/* 
+=================================
+BG Color
+=================================
+*/
+.bg-e7 {
+	background-color: #E76F51;
+}
+
+.bg-26 {
+	background-color: #264653;
+	;
+}
+
+/* 
+================================================
+================================================
+Start Reuseble Components
+================================================
+*/
+.title {
+	margin-bottom: 8rem;
+}
+
+.pt-80 {
+	padding-top: 8rem;
+}
+
+.pb-80 {
+	padding-bottom: 8rem;
+}
+
+.transition-1 {
+	-webkit-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+.transition-2 {
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.c-border {
+	border: 1px solid #DEDEDE;
+}
+
+.t-border {
+	border: .2rem solid transparent;
+}
+.c-btn:hover {
+	background-color: transparent;
+	border: .2rem solid #E76F51;
+}
+/* 
+================================================
+End Reuseble Components
+================================================
+================================================
+*/
+
+
+/* 
+=========================================
+Start Header Section
+=========================================
+*/
+header {
+	padding: 2rem 0;
+}
+
+.main-menu ul li:not(:last-child) {
+	margin-right: 3.5rem;
+}
+
+.main-menu ul li:nth-child(4) {
+	margin-right: 9rem;
+}
+
+.main-menu ul li:last-child a {
+	min-width: 9.1rem;
+	height: 4rem;
+	line-height: 4rem;
+}
+
+.main-menu ul li:not(:last-child) a:hover {
+	color: #E76F51;
+}
+.toggle-btn .bar1,
+.toggle-btn .bar2,
+.toggle-btn .bar3 {
+	width: 4rem;
+	height: .3rem;
+	background: #FFFFFF;
+	margin: .7rem 0;
+}
+
+/* 
+=========================================
+End Header Section
+=========================================
+*/
+
+
+/* 
+=========================================
+Start Hero Section
+=========================================
+*/
+.hero-section {
+	padding: 12rem 0 10rem;
+}
+
+.hero-text a {
+	min-width: 16.8rem;
+	height: 4rem;
+	line-height: 4rem;
+}
+
+/* 
+=========================================
+End Hero Section
+=========================================
+*/
+
+
+/* 
+=========================================
+Start Populer items Section
+=========================================
+*/
+.populer-items {
+	overflow: hidden;
+}
+
+.populer-items:hover .populer-item-img img {
+	transform: translateX(.8rem);
+}
+
+.products-icon {
+	position: absolute;
+	left: 0;
+	bottom: -7.5rem;
+	width: 100%;
+	background: #E76F51;
+	padding: 1.6rem 1rem;
+}
+
+.populer-items:hover .products-icon {
+	bottom: 0;
+}
+
+.products-icon ul li a {
+	background-color: #FFFFFF;
+	padding: .8rem;
+}
+
+.products-icon ul li a img {
+	filter: invert(0%) sepia(0%) saturate(30%) hue-rotate(97deg) brightness(100%) contrast(100%);
+	width: 2rem;
+}
+
+/* 
+=========================================
+End Populer items Section
+=========================================
+*/
+
+
+/* 
+=========================================
+Start Bikes Section
+=========================================
+*/
+.title hr {
+	border-bottom: .2rem solid #E76F51;
+	width: 5.9rem;
+}
+
+.bikes-img img {
+	filter: grayscale(1);
+}
+
+/* 
+=========================================
+End Bikes Section
+=========================================
+*/
+
+
+/* 
+=========================================
+Start FAQ Section
+=========================================
+*/
+.faq-text {
+	padding-left: 8rem;
+}
+
+.accordion-button:focus {
+	border-color: none !important;
+	box-shadow: 0 0 0 0 !important;
+}
+
+/* 
+=========================================
+End FAQ Section
+=========================================
+*/
+
+
+/*
+===========================
+Start Newsletter Section
+===========================
+*/
+.newsletter form {
+	max-width: 55rem;
+}
+
+.newsletter-fild input {
+	width: 70%;
+	padding: 2rem 1.5rem;
+	background: #FFFFFF;
+}
+
+.newsletter-fild input,
+.newsletter-fild input::placeholder {
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: #000000;
+}
+
+.newsletter-fild button {
+	width: 30%;
+	padding: 2rem 0;
+	cursor: pointer;
+}
+
+.newsletter-fild input,
+.newsletter-fild button {
+	-webkit-box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+	box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+/*
+===========================
+End Newsletter Section
+===========================
+*/
